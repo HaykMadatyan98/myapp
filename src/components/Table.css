@@ -1,0 +1,38 @@
+span {
+    display: block;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.User {
+    width: 70%;
+    gap: 20px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 30px;
+    overflow:hidden
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
